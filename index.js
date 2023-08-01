@@ -20,7 +20,7 @@ document.querySelectorAll(".drum")[a].addEventListener("click", function() {
         }); 
             }
 
-    else if ( a == 2 ) {
+   else if ( a == 2 ) {
 
                 document.querySelectorAll(".drum")[a].addEventListener("click", function() {
                   this.style.color = "white"
@@ -31,7 +31,7 @@ document.querySelectorAll(".drum")[a].addEventListener("click", function() {
                     }
 
 
-    else if ( a == 3 ) {
+  else if ( a == 3 ) {
 
                         document.querySelectorAll(".drum")[a].addEventListener("click", function() {
                           this.style.color = "white"
@@ -41,7 +41,7 @@ document.querySelectorAll(".drum")[a].addEventListener("click", function() {
                         }); 
                             }
     
-    else if ( a == 4 ) {
+  else if ( a == 4 ) {
 
                                 document.querySelectorAll(".drum")[a].addEventListener("click", function() {
                                   this.style.color = "white"
@@ -51,7 +51,7 @@ document.querySelectorAll(".drum")[a].addEventListener("click", function() {
                                 }); 
                                     }
 
-    else if ( a == 5 ) {
+  else if ( a == 5 ) {
 
                                         document.querySelectorAll(".drum")[a].addEventListener("click", function() {
                                           this.style.color = "white"
@@ -59,7 +59,7 @@ document.querySelectorAll(".drum")[a].addEventListener("click", function() {
                                           audio5.play();  
                                            
                                         }); }
-                                        else if ( a == 6 ) {
+  else if ( a == 6 ) {
 
                                             document.querySelectorAll(".drum")[a].addEventListener("click", function() {
                                               this.style.color = "white"
