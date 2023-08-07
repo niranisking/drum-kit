@@ -6,6 +6,7 @@ document.querySelectorAll(".drum")[a].addEventListener("click", function() {
   var buttonInnerHTML = this.innerHTML;
 
   makeSound(buttonInnerHTML);
+  buttonAnimation(buttonInnerHTML);
 
   });
 
@@ -18,26 +19,24 @@ document.addEventListener("keypress", function(event) {
 
   makeSound(event.key)
 
+  buttonAnimation(event.key)
+
 })
 
 
 
-// document.addEventListener("keypress", function(event) {
-
-//     event.style.color = "purple";
-
-// })
 
 
 
 
 
-function makeSound (key) {
 
-  // this.style.color = "purple"
+function makeSound (alphabet) {
+
+ 
 
 
-  switch (key) {
+  switch (alphabet) {
     case "w": 
       var tom1 = new Audio ('sounds/tom-1.mp3');
       tom1.play();
@@ -132,6 +131,170 @@ function makeSound (key) {
 
 
 }
+
+
+
+
+function buttonAnimation (currentkey) {
+
+//  var activeButton = document.querySelector("." + currentkey)
+
+ switch (currentkey) {
+  case "w":
+
+  // activeButton.classList.add("pressed")
+  document.querySelector(".w").classList.add("pressed");
+  
+    break;
+
+      case "a":
+    
+      // activeButton.classList.add("pressed")
+      document.querySelector(".a").classList.add("pressed");
+
+      
+        break;
+
+        case "z":
+    
+      // activeButton.classList.add("pressed")
+      document.querySelector(".z").classList.add("pressed");
+
+      
+        break;
+
+        case "o":
+    
+      // activeButton.classList.add("pressed")
+      document.querySelector(".o").classList.add("pressed");
+
+      
+        break;
+
+        case "m":
+    
+      // activeButton.classList.add("pressed")
+      document.querySelector(".m").classList.add("pressed");
+
+      
+        break;
+
+        case "i":
+    
+      // activeButton.classList.add("pressed")
+      document.querySelector(".i").classList.add("pressed");
+
+      
+        break;
+
+        case "s":
+    
+      // activeButton.classList.add("pressed")
+      document.querySelector(".s").classList.add("pressed");
+
+      
+        break;
+
+        case "d":
+    
+      // activeButton.classList.add("pressed")
+      document.querySelector(".d").classList.add("pressed");
+
+      
+        break;
+
+        case "j":
+    
+      // activeButton.classList.add("pressed")
+      document.querySelector(".j").classList.add("pressed");
+
+      
+        break;
+
+        case "k":
+    
+      // activeButton.classList.add("pressed")
+      document.querySelector(".k").classList.add("pressed");
+
+
+      
+        break;
+
+        case "l":
+    
+      // activeButton.classList.add("pressed")
+      document.querySelector(".l").classList.add("pressed");
+
+      
+        break;
+ 
+
+        case "f":
+    
+      // activeButton.classList.add("pressed")
+      document.querySelector(".f").classList.add("pressed");
+
+      
+        break;
+
+        case "q":
+    
+      // activeButton.classList.add("pressed")
+      document.querySelector(".q").classList.add("pressed");
+
+      
+        break;
+
+        case "c":
+    
+      // activeButton.classList.add("pressed")
+      document.querySelector(".c").classList.add("pressed");
+
+      
+        break;
+  default: console.log(buttonInnerHTML);
+
+ }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
