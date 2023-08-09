@@ -144,6 +144,10 @@ function buttonAnimation (currentkey) {
 
   // activeButton.classList.add("pressed")
   document.querySelector(".w").classList.add("pressed");
+
+setTimeout ( function () {
+  document.querySelector(".w").classList.remove("pressed"), 500;
+})
   
     break;
 
@@ -152,7 +156,9 @@ function buttonAnimation (currentkey) {
       // activeButton.classList.add("pressed")
       document.querySelector(".a").classList.add("pressed");
 
-      
+      setTimeout ( function () {
+        document.querySelector(".a").classList.remove("pressed"), 500;
+      })
         break;
 
         case "z":
@@ -160,7 +166,9 @@ function buttonAnimation (currentkey) {
       // activeButton.classList.add("pressed")
       document.querySelector(".z").classList.add("pressed");
 
-      
+      setTimeout ( function () {
+        document.querySelector(".z").classList.remove("pressed"), 500;
+      })
         break;
 
         case "o":
@@ -168,7 +176,9 @@ function buttonAnimation (currentkey) {
       // activeButton.classList.add("pressed")
       document.querySelector(".o").classList.add("pressed");
 
-      
+      setTimeout ( function () {
+        document.querySelector(".o").classList.remove("pressed"), 500;
+      })
         break;
 
         case "m":
@@ -176,7 +186,9 @@ function buttonAnimation (currentkey) {
       // activeButton.classList.add("pressed")
       document.querySelector(".m").classList.add("pressed");
 
-      
+      setTimeout ( function () {
+        document.querySelector(".m").classList.remove("pressed"), 500;
+      })
         break;
 
         case "i":
@@ -184,7 +196,9 @@ function buttonAnimation (currentkey) {
       // activeButton.classList.add("pressed")
       document.querySelector(".i").classList.add("pressed");
 
-      
+      setTimeout ( function () {
+        document.querySelector(".i").classList.remove("pressed"), 500;
+      })
         break;
 
         case "s":
@@ -192,7 +206,9 @@ function buttonAnimation (currentkey) {
       // activeButton.classList.add("pressed")
       document.querySelector(".s").classList.add("pressed");
 
-      
+      setTimeout ( function () {
+        document.querySelector(".s").classList.remove("pressed"), 500;
+      })
         break;
 
         case "d":
@@ -200,7 +216,9 @@ function buttonAnimation (currentkey) {
       // activeButton.classList.add("pressed")
       document.querySelector(".d").classList.add("pressed");
 
-      
+      setTimeout ( function () {
+        document.querySelector(".d").classList.remove("pressed"), 500;
+      })
         break;
 
         case "j":
@@ -208,7 +226,9 @@ function buttonAnimation (currentkey) {
       // activeButton.classList.add("pressed")
       document.querySelector(".j").classList.add("pressed");
 
-      
+      setTimeout ( function () {
+        document.querySelector(".j").classList.remove("pressed"), 500;
+      })
         break;
 
         case "k":
@@ -217,7 +237,9 @@ function buttonAnimation (currentkey) {
       document.querySelector(".k").classList.add("pressed");
 
 
-      
+      setTimeout ( function () {
+        document.querySelector(".k").classList.remove("pressed"), 500;
+      })
         break;
 
         case "l":
@@ -225,7 +247,9 @@ function buttonAnimation (currentkey) {
       // activeButton.classList.add("pressed")
       document.querySelector(".l").classList.add("pressed");
 
-      
+      setTimeout ( function () {
+        document.querySelector(".l").classList.remove("pressed"), 500;
+      })
         break;
  
 
@@ -234,7 +258,9 @@ function buttonAnimation (currentkey) {
       // activeButton.classList.add("pressed")
       document.querySelector(".f").classList.add("pressed");
 
-      
+      setTimeout ( function () {
+        document.querySelector(".f").classList.remove("pressed"), 500;
+      })
         break;
 
         case "q":
@@ -242,7 +268,9 @@ function buttonAnimation (currentkey) {
       // activeButton.classList.add("pressed")
       document.querySelector(".q").classList.add("pressed");
 
-      
+      setTimeout ( function () {
+        document.querySelector(".q").classList.remove("pressed"), 500;
+      })
         break;
 
         case "c":
@@ -250,7 +278,9 @@ function buttonAnimation (currentkey) {
       // activeButton.classList.add("pressed")
       document.querySelector(".c").classList.add("pressed");
 
-      
+      setTimeout ( function () {
+        document.querySelector(".c").classList.remove("pressed"), 500;
+      })
         break;
   default: console.log(buttonInnerHTML);
 
